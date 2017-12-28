@@ -1,0 +1,2 @@
+# myDevItems
+Exploring different techs
