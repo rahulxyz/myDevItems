@@ -1,2 +1,0 @@
-# Description
-Exploring Different Techs
