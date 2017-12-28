@@ -1,2 +1,2 @@
 # Description
-## Testing javaScript using Jasmine
+Testing javaScript using Jasmine
