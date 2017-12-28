@@ -1,2 +1,2 @@
 # Description
-## Exploring Different Techs
+Exploring Different Techs
