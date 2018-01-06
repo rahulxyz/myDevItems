@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Simple Map</title>
+<meta name="viewport" content="initial-scale=1.0">
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/style.css" type="text/css" media="screen" charset="utf-8" />
+
+
+</head>
+
+<body>
+<h1 >Google Map</h1>
+<div id="map"></div>
+
+<form>
+    User name: <input type = "text" name = "first_name" id="username"/>
+
+</form>
+<input type="button" value="Submit New User" onclick="submit()" id="newUser"/>
+<form >
+
+    <select id="dropdown">
+        <option value = "default">Select User</option>
+    </select>
+
+</form>
+<input type = "submit" value = "Submit Old User" onclick="submitUser()" />
+
+</body>
+
+<script src="https://maps.googleapis.com/maps/api/js?key=<YOURKEY>&callback=initMap" async defer></script>
+<script src="https://www.gstatic.com/firebasejs/4.8.1/firebase.js"></script>
+<script src="js/src/mapScript.js" type="text/javascript"></script>
+
+</html>

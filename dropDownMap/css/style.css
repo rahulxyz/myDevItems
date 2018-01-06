@@ -1,0 +1,20 @@
+#map {
+    width: 80%;
+    height: 50%;
+    background-color: gray;
+    margin-bottom: 20px;
+}
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+#submit{
+    width: 100px;
+    height: 20px;
+}
+
+#newUser{
+    margin-bottom: 20px;
+}
