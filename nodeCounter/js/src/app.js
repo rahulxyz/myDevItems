@@ -37,7 +37,7 @@ function httpGet(theUrl)
 //get url of given node. It can  be null
 var getUrl = function (node) {
     //construct url, e.g. node= counter or counter/createdAt
-    var base_url="https://travellive-aecf9.firebaseio.com/"
+    var base_url="https://<ProjectID>.firebaseio.com/"
     var end_url= ".json?shallow=true"
     var return_url;
     if(node !=null)
