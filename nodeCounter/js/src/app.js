@@ -2,8 +2,8 @@ var firebase = require('firebase');
 var XMLHttpRequest = require("xmlhttprequest").XMLHttpRequest;
 
 firebase.initializeApp({
-    "service-account": "./google-services.json",
-    "databaseURL": "https://travellive-aecf9.firebaseio.com/"
+    "service-account": "../extras/serviceAccountKey.json",
+    "databaseURL": "<DATABASE_URL>"
 });
 
 //firebase database reference
