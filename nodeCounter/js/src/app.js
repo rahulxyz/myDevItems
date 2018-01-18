@@ -77,5 +77,7 @@ var initiate = function () {
 
 }
 
-initiate()
+//15 mins
+var time = 1000*60*15
+setInterval(initiate,time);
 
