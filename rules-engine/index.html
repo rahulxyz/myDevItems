@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="src/css/style.css">
+    <script src="src/js/app/app.js"></script>
+
+</head>
+<body>
+<form>
+    Your Message: <input type = "text" name = "message" id="message"/><br>
+
+    <p><b>Filters</b></p>
+    <div>Color</div>
+    <input type="radio" name="color" value="red" id="red">Red<br>
+    <input type="radio" name="color" value="green" id="green">Green<br>
+
+    <div id="user">User</div>
+    <input type="radio" name="user" value="adult">Adult<br>
+    <input type="radio" name="user" value="child">Child<br><br>
+
+    Size: <input type = "text" name = "size" id="size"/>
+</form>
+<input type="button" value="Share" onsubmit="shareIt()" id="share"/>
+</body>
+</html>

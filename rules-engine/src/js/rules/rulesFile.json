@@ -1,0 +1,1 @@
+[{"condition":"function (R) {\r\n        //if condition is true then consequence is executed and result is false\r\n        R.when(this.size<500)\r\n    }","consequence":"function (R) {\r\n        console.log(\"Consequence\")\r\n        this.result = false;\r\n        R.stop();\r\n    }","on":true}]
